@@ -3,7 +3,7 @@
 ;;; Commentary:
 ;;
 ;; * Basic settings
-(load-theme 'leuven)
+;; (load-theme 'leuven)
 
 ;; Source code pro for the font if it is available
 
