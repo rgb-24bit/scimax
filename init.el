@@ -39,11 +39,13 @@
 
 (require 'package)
 
-;;; Emacs-China package repositories
+;;; Emacs-China & tuna package repositories
 (setq package-archives
-      '(("melpa-cn" . "http://elpa.emacs-china.org/melpa/")
-        ("org-cn"   . "http://elpa.emacs-china.org/org/")
-        ("gnu-cn"   . "http://elpa.emacs-china.org/gnu/")))
+      '(("melpa-tuna" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+        ("gnu-tuna"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+        ("melpa-cn"   . "http://elpa.emacs-china.org/melpa/")
+        ("org-cn"     . "http://elpa.emacs-china.org/org/")
+        ("gnu-cn"     . "http://elpa.emacs-china.org/gnu/")))
 
 ;; (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
 ;; 		    (not (gnutls-available-p))))
