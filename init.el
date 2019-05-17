@@ -105,8 +105,9 @@
 (add-to-list 'load-path scimax-dir)
 (add-to-list 'load-path scimax-user-dir)
 
-(let ((default-directory scimax-dir))
-  (shell-command "git submodule update --init"))
+;; Increase startup speed
+;; (let ((default-directory scimax-dir))
+;;   (shell-command "git submodule update --init"))
 
 (set-language-environment "UTF-8")
 

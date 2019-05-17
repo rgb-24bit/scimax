@@ -359,7 +359,8 @@
 
 ;; Templating system
 ;; https://github.com/Wilfred/mustache.el
-(use-package mustache)
+(use-package mustache
+  :defer t)
 
 ;; this is a git submodule
 (if (executable-find "jupyter")
